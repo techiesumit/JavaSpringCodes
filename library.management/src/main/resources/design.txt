@@ -1,0 +1,10 @@
+Language
+    Language_Id, Language
+Books
+    ISBN , Title, PublishedYear
+Authors
+    Auhtor_Id , Name
+Book_Authors
+    ISBN , AuthorID (Combined Primary Key)
+Book_Languages
+    ISBN, Language

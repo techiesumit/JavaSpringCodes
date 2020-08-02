@@ -1,0 +1,30 @@
+USE library_mangement;
+delete from language;
+insert into language (id,language) values (1,"Chinese");
+insert into language (id, language) values (2,"Spanish");
+insert into language (id, language) values (3, "English");
+insert into language (id, language) values (4,"Arabic");
+insert into language (id, language) values (5,"Hindi");
+insert into language (id, language) values (6, "Bengali");
+insert into language (id, language) values (7, "Portuguese");
+insert into language (id, language) values (8,"Russian");
+insert into language (id, language) values (9,"Japanese");
+insert into language (id, language) values (10,"German");
+insert into language (id, language) values (11, "Javanese");
+insert into language (id, language) values (12, "Telugu");
+insert into language (id, language) values (13, "Vietnamese");
+insert into language (id, language) values (14, "Marathi");
+insert into language (id, language) values (15, "French");
+insert into language (id, language) values (16, "Korean");
+insert into language (id, language) values (17, "Tamil");
+insert into language (id, language) values (18, "Italian");
+insert into language (id, language) values (19, "Urdu");
+COMMIT;
+
+/* Insert into  Books*/
+delete from books;
+insert into books (isbn , title, published_year) values ("IS23090ASD", "Sumit Chawla", 2019);
+insert into books (isbn , title, published_year) values ("IS23094ASD", "Kapil Kumar", 2015);
+insert into books (isbn , title, published_year) values ("IS23033IDH", "Pankaj Khurana", 2009);
+insert into books (isbn , title, published_year) values ("IS23065IMM", " Sumit Chawla", 2011);
+COMMIT;

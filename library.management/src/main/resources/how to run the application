@@ -1,0 +1,3 @@
+Start the application
+Open Browser and paste the following URL and navigate the swagger UI
+http://localhost:8088/swagger-ui.html
