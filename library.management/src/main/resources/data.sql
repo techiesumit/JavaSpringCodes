@@ -1,3 +1,5 @@
+USE library_mangement;
+delete from language;
 insert into language (language) values ("Chinese");
 insert into language (language) values ("Spanish");	
 insert into language (language) values ("English");		 
@@ -19,6 +21,7 @@ insert into language (language) values ("Italian");
 insert into language (language) values ("Urdu");
 
 /* Insert into  Books*/
+delete from books;
 insert into books (isbn , title, published_year) values ("IS23090ASD", "Sumit Chawla", 2019);
 insert into books (isbn , title, published_year) values ("IS23094ASD", "Kapil Kumar", 2015);
 insert into books (isbn , title, published_year) values ("IS23033IDH", "Pankaj Khurana", 2009);
